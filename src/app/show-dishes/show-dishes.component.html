@@ -1,0 +1,14 @@
+<div class="dishes">
+    <table>
+        @for(dd of items;track dd.code){
+
+        <tr>
+            <td>{{dd.code}}</td>
+            <td>{{dd.name}}</td>
+            <td>{{dd.price}}</td>
+            <td> <img src="{{dd.image}}" alt="image" width="100" height="100"></td>
+
+        </tr>
+        }
+    </table>
+</div>

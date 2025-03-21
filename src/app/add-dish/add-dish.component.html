@@ -1,0 +1,8 @@
+<div>
+    Code:<input type="text" [(ngModel)]="d.code" placeholder="code"><br>
+    Name:<input type="text" [(ngModel)]="d.name" placeholder="name"><br>
+    Price:<input type="number" [(ngModel)]="d.price" placeholder="price"><br>
+    Image:<input type="text" [(ngModel)]="d.image" placeholder="image"><br>
+    <button class="btn btn-success" (click)="addHandler()">Add</button>
+</div>
+<m-show-dishes [items]="dishes"></m-show-dishes>

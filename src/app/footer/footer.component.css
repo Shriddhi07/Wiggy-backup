@@ -1,0 +1,11 @@
+footer{
+    display: flex;
+    text-align: center;
+    height:8vh;
+    bottom: 0;
+    width: 99%;
+    background-color: rgb(146, 133, 169);
+    position: absolute;
+    padding-left: 35%;
+    font-size: 25px;
+}
